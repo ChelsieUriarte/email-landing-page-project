@@ -1,0 +1,26 @@
+html, body{
+    margin: 2%;
+    background-color: rgb(146, 115, 175);
+}
+
+.container-fluid {
+    background-color: rgb(230, 213, 255);
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Make Title Text Dark Purple
+#title {
+
+}
+*/
+
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+}
