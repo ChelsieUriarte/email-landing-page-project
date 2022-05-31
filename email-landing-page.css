@@ -5,6 +5,7 @@ html, body{
 
 .container-fluid {
     background-color: rgb(230, 213, 255);
+    padding: 3%;
 }
 
 #header {
@@ -13,14 +14,20 @@ html, body{
 }
 
 
-/* Make Title Text Dark Purple
 #title {
-
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 5%;
 }
-*/
 
 
 #nav-bar {
     display: flex;
     flex-direction: row;
+    padding-left: 60%;
+}
+
+.input-group {
+    padding-left: 35%;
+    padding-right: 35%;
 }
