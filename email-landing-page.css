@@ -17,8 +17,7 @@ html, body{
 #title {
     padding-left: 40%;
     padding-right: 40%;
-    padding-top: 3%;
-    padding-bottom: 3%;        
+    padding-bottom: 1%;        
 }
 
 @media (color) {
@@ -28,11 +27,11 @@ html, body{
 }
 
 
-.navbar-nav {
+.navbar {
     display: flex;
     flex-direction: row;
     padding-left: 70%;
-    font-size: medium;
+    font-size: medium;    
 }
 
 #form {
@@ -42,4 +41,35 @@ html, body{
 
 #video {
     align-content: center;
+}
+
+.wrapper {
+    padding: 1%;
+    border: solid;
+    border-style: groove;
+    border-color:rgb(170, 135, 206);
+    background-color: rgb(230, 213, 255);    
+}
+
+
+#history {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(104, 86, 122);
+}
+
+#news {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(104, 86, 122);
+}
+
+#community {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(104, 86, 122);
+}
+
+.main {
+    color:rgb(104, 86, 122);
 }
