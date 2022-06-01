@@ -22,32 +22,37 @@
             <!--Header-->
             <h3 id="header">
                 <!-- Image Element-->
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ciM79DBL7yuONqQHeCueEcxdUg1nPliEqQ&usqp=CAU" alt="" width="180" height="120" id="header-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ciM79DBL7yuONqQHeCueEcxdUg1nPliEqQ&usqp=CAU" class="image-fluid" alt="" width="180" height="120" id="header-img">
                
-                <!--Nav Bar-->
-                <nav id="nav-bar">
-                    <a class="nav-link" href="#">History</a>                
-                    <a class="nav-link" href="#">News</a>
-                    <a class="nav-link" href="#">Community</a>
-                </nav>
+                <!--Nav Bar *need to make it stay in place with changing sizes of screen*-->
+               <!-- A grey horizontal navbar that becomes vertical on small screens -->
+                <nav class="navbar navbar-expand-sm bg-light">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#community">Community</a>
+                    </li>
+                    </ul>
                 
-                 <!--Page Title-->
+                </nav>
+  
+                
+                <!--Page Title-->
                 <h1 id="title">
                     LGBTQ+ Pride
                 </h1>
 
             </h3> 
             
-            <!--Bootstrap Grid-->           
-
+            <!--Bootstrap Grid-->          
             <!--Row 1-->
-            <div class="row">
-                <div class="col">
-                    <!--Video (https://www.youtube.com/watch?v=GjRv7dJTync)-->
-                </div>
-            </div>
-
-            <!--Row 2-->
             <div class="row">
                 <div class="col">
                      <!--Form to input and submit email-->                     
@@ -57,15 +62,33 @@
                             <input type="text" class="form-control" placeholder="Submit your email to join our mailing list" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <span class="input-group-text" id="basic-addon2">Submit</span>
                           </div>
-                        <!--Email Submit Button url:https://www.freecodecamp.com/email-submit-->
                     </div>
                 </div>        
+            </div>
+
+            <!--Row 2-->
+            <div class="row">
+                <div class="col">
+                    <!--Video-->
+                    <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/watch?v=GjRv7dJTync">
+                    </iframe>
+                </div>
             </div>
 
             <!--Row 3-->
             <div class="row">
                 <div class="col">
-                    <!--History of Pride Bullet Points-->
+                    <!--History of Pride-->
+                    <h3 id="history">
+                        History of Pride
+                    </h3>
+                    <p id="history-of-pride">
+                        Pride Month commemorates the June 1969 Stonewall Riots. 
+                        The Stonewall Riots began on the 28th of June 1969 when the LGBTQ+ customers of New York City’s Stonewall Inn resisted police raids on their bar. In the raid that led to the Stonewall Riots, two police officers entered the Stonewall Inn and demanded to ‘check the sex’ of some of the bar’s customers by physical examination. 
+                        Reports on what exactly took place on that day are unclear. Despite this, broader research by historians such as Martin Duberman has shown that the LGBTQ+ community in New York had endured decades of raids and brutality at the hands of the NYC police's ‘Public Moral Squad’. This research shows us that, although the uprising at the Stonewall Inn was spontaneous, it was related to a long history of mistreatment of LGBTQ+ people in New York, and around the world. 
+                        The Stonewall Riots gave a new impetus to the ‘Gay Liberation’ movement around the globe. A key part of this movement was to encourage conversations about the lives and perceptions of LGBTQ+ people, and to fight for radical change in the way that LGBTQ+ people were treated by society. In the UK, for example, the Pride movement saw the growth and establishment of grassroots organizations that worked to stop the oppression of LGBTQ+ people. A key example of this is the Campaign for Homosexual Equality. 
+                        The first Pride event was organized by Brenda Howard, a bisexual activist, in New York City on the 28th of June 1970. The first march was called the Christopher Street Liberation Day March (which is the name of the road the Stonewall Inn is on) and the event had both an element of celebration and protest. Howard organized another event the next year in 1971, and soon Pride parades were established all over the world. 
+                    </p>
                 </div>
             </div>
 
@@ -73,6 +96,23 @@
             <div class="row">
                 <div class="col">
                     <!--News-->
+                    <h3 id="news">
+                        SF Pride News
+                    </h3>
+                    <p id="police at pride">
+                        Tensions are escalating in the local LGBTQ community following San Francisco Mayor London Breed's decision this week to throw her support behind the police union and the SFPD officers who are protesting not being able to wear uniforms in the SF Pride Parade.
+                        Breed announced Monday that she would join the police and fire departments in boycotting the parade, in solidarity, after LGBTQ members of the SFPD announced they would not participate in the parade as they usually do. That decision came two years after the SF Pride organization announced that it would no longer welcome uniformed and armed police to march as a parade contingent. (This does not apply to on-duty officers who will be providing safety services to the public on Pride Sunday.)
+                        This year is the first in-person, live Pride parade since 2019 — and during that year's parade, demonstrators blocked the parade route in protest of the police, as well as the incarceration of trans people and several other causes. In 2020, following the death of George Floyd at the hands of police, Pride organizers around the country began discussing limiting police participation in the event in recognition of the LGBTQ community's historically negative relationship with cops, and in solidarity with the Black Lives Matter movement.
+                        New York Pride has banned police from marching in their parade altogether, but SF Pride made a compromise decision to allow LGBTQ officers to march, but in department t-shirts or other garments that are not uniforms.
+                        Now, the San Francisco Transgender District has put out a statement saying it will boycott all city-sponsored Pride events this year. These events include the annual raising of the Pride flag at City Hall, and all other city-sponsored events occurring around Pride Month.
+                        "The mayor’s decision — her seat of power, and her role and leadership in one of the most progressive cities in the world creates a domino effect," Aria Sa’id, the district’s president, said in the Facebook statement. "Her seat can in fact choose when to support trans and queer people based on unspoken conditions — when in fact, our reality as trans people is we are fighting for a world in which we have cisgender people’s allyship WITHOUT conditions."
+                        Sa'id further writes that Breed's decision implies "transactional allyship" with the LGBTQ community, "instead of promoting allyship without conditions."
+                        "The Transgender District stands in solidarity with SF Pride," Sa'id says. "This is not about barring LGBTQ individuals in the police force from attending the parade, but rather allowing police uniforms as part of the parade — a parade whose origin is closely tethered to the actions of police."
+                        Indeed, the first Pride, or what was originally called Gay Freedom Day, was celebrated on the one-year anniversary of the 1969 Stonewall Riots — riots that broke out in response to a police raid, one of many over decades, on a queer space in New York City. Three years prior to that, in San Francisco, the Compton's Cafeteria Riot occurred in what's now the Transgender District, at the corner of Turk and Taylor — a riot in which trans and queer people also fought back against the police in response to mistreatment.
+                        "San Francisco Pride's decision to honor the genesis and true intent of our celebration, and establish boundaries with law enforcement agencies that continue to criminalize and harm our most impacted community members, is a stride towards conjunction with the founding values of Trans and Queer Pride," Sa'id writes.
+                        The Transgender District says it will reverse its decision if Breed reverses hers and issues an apology to the broader community and SF Pride.
+                        SF Pride issued a statement Monday suggesting that they hoped a compromise could be reached with the SFPD and Breed.
+                    </p>
                 </div>
             </div>
 
@@ -80,6 +120,12 @@
             <div class="row">
                 <div class="col">
                     <!--Community-->
+                    <h3 id="community">
+                        Community Events Through Bloom
+                    </h3>
+                    <p id="bloom community events">
+                        The app Bloom has partnered with SF Pride, and communities and organizations planning various events to celebrate Pride. Some events include San Francisco Japantown Pride Flag Rising, 2022 Trek Pride Ride, Over the Rainbow: A Big Gay Cabaret, Queer Movie Night, and more! For a full list of the events please join the bloom community <a href="https://www.joinbloom.community/sf-pride-2022">here</a>.
+                    </p>
                 </div>
             </div>  
 

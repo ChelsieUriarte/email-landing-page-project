@@ -18,11 +18,17 @@ html, body{
     padding-left: 40%;
     padding-right: 40%;
     padding-bottom: 5%;
-    color: rgb(133, 110, 156);
+    padding-top: 5%;    
+}
+
+@media (color) {
+    #title {
+        color: rgb(133, 110, 156);
+    }
 }
 
 
-#nav-bar {
+.navbar-nav {
     display: flex;
     flex-direction: row;
     padding-left: 70%;
@@ -32,4 +38,8 @@ html, body{
 #form {
     padding-left: 35%;
     padding-right: 35%;
+}
+
+#video {
+    align-content: center;
 }
